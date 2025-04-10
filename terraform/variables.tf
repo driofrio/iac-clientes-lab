@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "TU_ID_DE_PROYECTO"
+  default = "pruebaiac-456412"
 }
 variable "region" {
   default = "us-central1"

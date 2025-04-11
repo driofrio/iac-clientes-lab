@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         port(Integer.parseInt(System.getenv().getOrDefault("PORT", "8080")));
-
+        ipAddress("0.0.0.0");
         get("/clientes", (req, res) -> {
     return "{\"status\":\"ok\"}";
 });
